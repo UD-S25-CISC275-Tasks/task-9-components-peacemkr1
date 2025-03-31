@@ -12,7 +12,7 @@ describe("ChangeType Component tests", () => {
         expect(typeText).toBeInTheDocument();
     });
     test("(1 pts) The initial type is not Multiple Choice", () => {
-        // We use `queryByText` because the text might not be there
+        // We use `queryByText` because the text might not be there hello
         const typeText = screen.queryByText(/Multiple Choice/i);
         expect(typeText).toBeNull();
     });
