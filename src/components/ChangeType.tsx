@@ -6,7 +6,7 @@ export function ChangeType(): React.JSX.Element {
     const [questionType, setQuestionType] = useState<QuestionType>(
         "short_answer_question"
     );
-
+    // Function to toggle the question type
     const toggleType = () => {
         setQuestionType(
             questionType === "short_answer_question"
