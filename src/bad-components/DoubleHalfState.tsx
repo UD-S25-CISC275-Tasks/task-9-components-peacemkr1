@@ -1,3 +1,6 @@
-import { useState } from "react";
+import React from "react";
+import { DoubleHalf } from "./DoubleHalf";
 
-export const [dhValue, setDhValue] = useState<number>(10);
+export function DoubleHalfState(): React.JSX.Element {
+    return <DoubleHalf />;
+}
